@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    {% load static %}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static '/css/style.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+
+        $(document).ready(function () {
+            $(".fadein").hide().delay().fadeIn(1500);
+            $(".slide-right").hide().delay(1500).fadeIn().animate({ left: "1000px" });
+            $(".slide-left").hide().delay(1500).fadeIn().animate({ right: "1000px" });
+            $(".donate").animate()
+        });
+
+    </script>
+</head>
+
+<body>
+    <header class="navbar fadein">
+        <a href="/">Home</a>
+        <a href="/arma">Gaming</a>
+        <a href="/dji">DJI</a>
+        <a href="/photos">Photos</a>
+        <a href="/contact">Contact</a>
+    </header>
+    <main id="arma">
+        <div class="container fadein">
+            <img src="{% static '/images/arma.jpg' %}" height="auto" width="4000px" class="background-image">
+            <div class="container-stuff">
+                <h1 class="fadein" id="fourth">[4th]<br>The Fourth Seal</h1>
+                <img src="{% static '/images/patch-blue.webp' %}" height="auto" width="auto" style="margin-top: 25px; border: 1px solid black; box-shadow: 5px 10px 20px black;">
+                <h2 style="margin-top: 25px; text-decoration: underline;">Revelations 6:7</h2>
+                <p style="margin-top: 25px;">When The Lamb opened the fourth seal, I heard the voice of the fourth living creature say, "Come!" I looked, and there before me was a pale horse! It's rider was named Death, and Hades was following close behind him. They were given power over a fourth of the earth to kill by sword, famine and plage, and by the wild beasts of the earth.</p>
+                <h3 class="fadein" id="join-discord">Join our Discord server and Battlefield Platoon</h3>
+                <a href="https://discord.gg/7mkWhg" class="fadein btn btn-primary" id="link">Connect to Discord</a><br> 
+                <a href="http://battlelog.battlefield.com/bf4/platoons/view/4938273295300702178/" class="fadein btn btn primary" id="platoon">Join Battlefield Platoon</a>
+            </div>
+        </div>
+    </main>
+    <footer class="footer fadein">
+        <p class="copywright">Copywright @ 2020 | All rights reserved | <a href="/contact">Contact</a></p>
+        <a
+            href="https://www.paypal.com/donate?token=e3HQ5d_S0hnH8i3o2W_hZY_UOOcBg6yeUSUoTGUd4kByiXavEW7nHBW5y7NtaKwZJTteqdwGjwbdBy4z"><img
+                alt="donate button" role="button" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif"
+                tabindex="0" aria-label="Donate via PayPal" data-testid="submit-image"></a>
+    </footer>
+</body>
+
+</html>

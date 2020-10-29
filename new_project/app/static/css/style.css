@@ -1,0 +1,376 @@
+@media only screen and (min-width: 1024px) {
+
+    html {
+        position: relative;
+        min-height: 100%;
+    }
+
+    body {
+        margin: 0 0 75px;
+        background: radial-gradient(#35363a,  #181818) ;
+        font-family: 'Play', sans-serif;
+    }
+
+    .navbar {
+        background: linear-gradient(#181818, #35363a);
+        display: flex;
+        justify-content: space-around;
+        box-shadow: 5px 10px 20px black;
+        width: 100%;
+    }
+
+    .navbar a {
+        color: whitesmoke;
+        font-size: xx-large;
+        text-shadow: 5px 5px 10px black;
+    }
+
+    #welcome {
+        color: whitesmoke;
+        text-shadow: 5px 5px 10px black;
+    }
+
+    #shut-up {
+        box-shadow: 5px 5px 10px black;
+    }
+
+    #first {
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    #spaztron {
+        border: 5px solid black;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        box-shadow: 5px 10px 20px rgb(19, 19, 19);
+    }
+
+    #welcome {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    #youtube-button {
+        background-color: firebrick;
+        border-color: black;
+        box-shadow: 5px 5px 10px rgb(29, 29, 29);
+        margin-top: 25px;
+        width: 400px;
+        margin-right: 2000px;
+    }
+
+    #check-out-my-youtube {
+        margin-left: 2000px;
+    }
+
+    .footer {
+        background: linear-gradient(#35363a, #181818);
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 75px;
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #check-out {
+        margin-top: 50px;
+    }
+
+    .copywright {
+        color: whitesmoke;
+    }
+
+    .slide-right {
+        position: relative;
+    }
+
+    .slide-left {
+        position: relative;
+    }
+
+    #arma {
+        text-align: center;
+        text-shadow: 5px 5px 10px black;
+    }
+
+    #fourth {
+        color: whitesmoke;
+        text-shadow: 5px 5px 10px black;
+    }
+
+    #join-discord {
+        color: whitesmoke;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        text-shadow: 5px 5px 10px black;
+    }
+
+    #spaz-server {
+        color: whitesmoke;
+        margin-bottom: 25px;
+        text-shadow: 5px 5px 10px black;
+    }
+
+    #link {
+        background-color: rgb(111, 126, 255);
+        border-color: black;
+        box-shadow: 5px 5px 10px black;
+        margin-top: 10px;
+    }
+
+    .background-image {
+        opacity: 0.1;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        text-align: center;
+        color: white;  
+    }
+
+    .container-stuff {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    #platoon {
+        background-color: darkorange;
+        border-color: black;
+        box-shadow: 5px 5px 10px black;
+        margin-top: 25px;
+    }
+
+    #main-dji {
+        text-align: center;
+        align-items: center;
+    }
+
+    .youtube-video {
+        margin-top: 50px;
+        border: 1px solid black;
+        box-shadow: 5px 10px 20px black;
+        display: inline;
+        margin-right: 25px;
+        margin-bottom: 50px;
+    }
+
+    div.gallery {
+        margin: 5px;
+        border: 1px solid #ccc;
+        width: 600px;
+        display: inline-block;
+        margin-top: 25px;
+        margin-bottom: 50px;
+    }
+      
+    div.gallery:hover {
+        border: 1px solid #777;
+        box-shadow: 5px 10px 20px black;
+    }
+      
+    div.gallery img {
+        width: 100%;
+        height: auto;
+        box-shadow: 5px 10px 20px black;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+
+    html {
+        position: relative;
+        min-height: 100%;
+    }
+
+    body {
+        margin: 0 0 100px;
+        background: radial-gradient(#35363a,  #181818) ;
+        font-family: 'Play', sans-serif;
+    }
+
+    .navbar {
+        background: linear-gradient(#181818, #35363a);
+        display: flex;
+        justify-content: space-evenly;
+        box-shadow: 5px 10px 20px black;
+        width: 100%;
+    }
+
+    .navbar a {
+        color: whitesmoke;
+        margin: 1%;
+        text-shadow: 5px 5px 10px black;
+    }
+
+    #welcome {
+        color: whitesmoke;
+        text-shadow: 5px 5px 10px black;
+        font-size: small;
+    }
+
+    #shut-up {
+        box-shadow: 5px 5px 10px black;
+    }
+
+    #first {
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    #spaztron {
+        border: 5px solid black;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        box-shadow: 5px 10px 20px rgb(19, 19, 19);
+    }
+
+    #welcome {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    #youtube-button {
+        background-color: firebrick;
+        border-color: black;
+        box-shadow: 5px 5px 10px rgb(29, 29, 29);
+        margin-top: 25px;
+        margin-bottom: 25px;
+        width: 200px;
+    }
+
+    .footer {
+        background: linear-gradient(#35363a, #181818);
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 100px;
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #check-out {
+        margin-top: 50px;
+    }
+
+    .copywright {
+        color: whitesmoke;
+    }
+
+    a {
+        font-size: small;
+    }
+
+    p {
+        font-size: x-small;
+    }
+
+
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1023px) {
+
+    html {
+        position: relative;
+        min-height: 100%;
+    }
+
+    body {
+        margin: 0 0 75px;
+        background: radial-gradient(#35363a,  #181818) ;
+        font-family: 'Play', sans-serif;
+    }
+
+    .navbar {
+        background: linear-gradient(#181818, #35363a);
+        display: flex;
+        justify-content: space-evenly;
+        box-shadow: 5px 10px 20px black;
+        width: 100%;
+    }
+
+    .navbar a {
+        color: whitesmoke;
+        font-size: xx-large;
+        text-shadow: 5px 5px 10px black;
+    }
+
+    #welcome {
+        color: whitesmoke;
+        text-shadow: 5px 5px 10px black;
+    }
+
+    #shut-up {
+        box-shadow: 5px 5px 10px black;
+    }
+
+    #first {
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    #spaztron {
+        border: 5px solid black;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        box-shadow: 5px 10px 20px rgb(19, 19, 19);
+    }
+
+    #welcome {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    #youtube-button {
+        background-color: firebrick;
+        border-color: black;
+        box-shadow: 5px 5px 10px rgb(29, 29, 29);
+        margin-top: 25px;
+        width: 400px;
+        margin-bottom: 25px;
+    }
+
+    .footer {
+        background: linear-gradient(#35363a, #181818);
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 75px;
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #check-out {
+        margin-top: 50px;
+    }
+
+    .copywright {
+        color: whitesmoke;
+    }
+
+    h1 {
+        font-size: xx-large;
+    }
+
+    .navbar a {
+        margin: 10px;
+    }
+
+}
