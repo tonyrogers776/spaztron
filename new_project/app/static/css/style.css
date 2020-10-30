@@ -57,11 +57,11 @@
         box-shadow: 5px 5px 10px rgb(29, 29, 29);
         margin-top: 25px;
         width: 400px;
-        margin-right: 2000px;
+        margin-right: 800px;
     }
 
     #check-out-my-youtube {
-        margin-left: 2000px;
+        margin-left: 800px;
     }
 
     .footer {
@@ -184,6 +184,40 @@
         box-shadow: 5px 10px 20px black;
     }
 
+    div.gallery2 {
+        margin: 5px;
+        border: 1px solid #ccc;
+        width: 600px;
+        display: inline-block;
+        margin-top: 25px;
+        margin-bottom: 50px;
+        margin-left: 21px;
+    }
+      
+    div.gallery:hover {
+        border: 1px solid #777;
+        box-shadow: 5px 10px 20px black;
+    }
+      
+    div.gallery2 img {
+        width: 100%;
+        height: 400px;
+        box-shadow: 5px 10px 20px black;
+    }
+
+    #primary {
+        text-align: center;
+        margin-top: 100px;
+
+    }
+
+    #primary h1, h2, h3 {
+        color: whitesmoke;
+        margin-top: 50px;
+    }
+
+    
+
 }
 
 @media only screen and (max-width: 480px) {
@@ -276,6 +310,129 @@
 
     p {
         font-size: x-small;
+    }
+
+    #arma {
+        text-align: center;
+        text-shadow: 5px 5px 10px black;
+    }
+
+    #fourth {
+        color: whitesmoke;
+        text-shadow: 5px 5px 10px black;
+    }
+
+    #join-discord {
+        color: whitesmoke;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        text-shadow: 5px 5px 10px black;
+    }
+
+    #spaz-server {
+        color: whitesmoke;
+        margin-bottom: 25px;
+        text-shadow: 5px 5px 10px black;
+    }
+
+    #link {
+        background-color: rgb(111, 126, 255);
+        border-color: black;
+        box-shadow: 5px 5px 10px black;
+        margin-top: 10px;
+    }
+
+    .background-image {
+        opacity: 0.1;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        text-align: center;
+        color: white;  
+    }
+
+    .container-stuff {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    #platoon {
+        background-color: darkorange;
+        border-color: black;
+        box-shadow: 5px 5px 10px black;
+        margin-top: 25px;
+    }
+
+    #main-dji {
+        text-align: center;
+        align-items: center;
+    }
+
+    .youtube-video {
+        margin-top: 50px;
+        border: 1px solid black;
+        box-shadow: 5px 10px 20px black;
+        display: inline;
+        margin-right: 25px;
+        margin-bottom: 50px;
+    }
+
+    div.gallery {
+        margin: 5px;
+        border: 1px solid #ccc;
+        width: 600px;
+        display: inline-block;
+        margin-top: 25px;
+        margin-bottom: 50px;
+    }
+      
+    div.gallery:hover {
+        border: 1px solid #777;
+        box-shadow: 5px 10px 20px black;
+    }
+      
+    div.gallery img {
+        width: 100%;
+        height: auto;
+        box-shadow: 5px 10px 20px black;
+    }
+
+    div.gallery2 {
+        margin: 5px;
+        border: 1px solid #ccc;
+        width: 600px;
+        display: inline-block;
+        margin-top: 25px;
+        margin-bottom: 50px;
+        margin-left: 21px;
+    }
+      
+    div.gallery:hover {
+        border: 1px solid #777;
+        box-shadow: 5px 10px 20px black;
+    }
+      
+    div.gallery2 img {
+        width: 100%;
+        height: 400px;
+        box-shadow: 5px 10px 20px black;
+    }
+
+    #primary {
+        text-align: center;
+        margin-top: 100px;
+
+    }
+
+    #primary h1, h2, h3 {
+        color: whitesmoke;
+        margin-top: 50px;
     }
 
 
@@ -371,6 +528,129 @@
 
     .navbar a {
         margin: 10px;
+    }
+
+    #arma {
+        text-align: center;
+        text-shadow: 5px 5px 10px black;
+    }
+
+    #fourth {
+        color: whitesmoke;
+        text-shadow: 5px 5px 10px black;
+    }
+
+    #join-discord {
+        color: whitesmoke;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        text-shadow: 5px 5px 10px black;
+    }
+
+    #spaz-server {
+        color: whitesmoke;
+        margin-bottom: 25px;
+        text-shadow: 5px 5px 10px black;
+    }
+
+    #link {
+        background-color: rgb(111, 126, 255);
+        border-color: black;
+        box-shadow: 5px 5px 10px black;
+        margin-top: 10px;
+    }
+
+    .background-image {
+        opacity: 0.1;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        text-align: center;
+        color: white;  
+    }
+
+    .container-stuff {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    #platoon {
+        background-color: darkorange;
+        border-color: black;
+        box-shadow: 5px 5px 10px black;
+        margin-top: 25px;
+    }
+
+    #main-dji {
+        text-align: center;
+        align-items: center;
+    }
+
+    .youtube-video {
+        margin-top: 50px;
+        border: 1px solid black;
+        box-shadow: 5px 10px 20px black;
+        display: inline;
+        margin-right: 25px;
+        margin-bottom: 50px;
+    }
+
+    div.gallery {
+        margin: 5px;
+        border: 1px solid #ccc;
+        width: 600px;
+        display: inline-block;
+        margin-top: 25px;
+        margin-bottom: 50px;
+    }
+      
+    div.gallery:hover {
+        border: 1px solid #777;
+        box-shadow: 5px 10px 20px black;
+    }
+      
+    div.gallery img {
+        width: 100%;
+        height: auto;
+        box-shadow: 5px 10px 20px black;
+    }
+
+    div.gallery2 {
+        margin: 5px;
+        border: 1px solid #ccc;
+        width: 600px;
+        display: inline-block;
+        margin-top: 25px;
+        margin-bottom: 50px;
+        margin-left: 21px;
+    }
+      
+    div.gallery:hover {
+        border: 1px solid #777;
+        box-shadow: 5px 10px 20px black;
+    }
+      
+    div.gallery2 img {
+        width: 100%;
+        height: 400px;
+        box-shadow: 5px 10px 20px black;
+    }
+
+    #primary {
+        text-align: center;
+        margin-top: 100px;
+
+    }
+
+    #primary h1, h2, h3 {
+        color: whitesmoke;
+        margin-top: 50px;
     }
 
 }

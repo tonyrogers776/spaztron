@@ -9,4 +9,10 @@ def arma(request):
 def dji(request):
     return render(request, 'dji.html')
 
+def contact(request):
+    return render(request, 'contact.html')
+
+def photos(request):
+    return render(request, 'photos.html')
+
 # Create your views here.
